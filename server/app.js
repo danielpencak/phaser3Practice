@@ -11,7 +11,7 @@ app.disable('x-powered-by');
 
 app.use(morgan('dev'));
 
-app.use(express.static(path.resolve(__dirname, '..', 'build')));
+app.use(express.static(path.resolve(__dirname, '..', 'public')));
 
 app.get('*', (req, res) => {
   res.sendFile(path.resolve(__dirname, '..', 'public', 'index.html'));

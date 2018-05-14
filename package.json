@@ -2,9 +2,9 @@
   "name": "phaser3Practice",
   "version": "0.1.0",
   "description": "Practicing implementing Phaser 3",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
-    "start": "react-scripts start & nodemon --watch server/ server/bin/www",
+    "start": "nodemon --watch server/ server/bin/www",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {
